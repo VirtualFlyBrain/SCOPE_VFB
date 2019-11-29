@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from collections import OrderedDict, namedtuple
 import pandas as pd
 
@@ -25,10 +23,10 @@ def gen_template(template_file_name, xref_links):
         row_od["RDF_Type"] = "owl:Class"
         row_od['ID'] = xrl.subj
         row_od["Xref"] = ':'.join([xrl.db, xrl.acc])
+        # Hmm - this is a bit weird again. Seems to work though.
 
-    # Hmm - this is a bit weird again. Seems to work though.
-    new_row = pd.DataFrame.from_records([row_od])
-    template = pd.concat([template, new_row], ignore_index=True, sort=False)
+        new_row = pd.DataFrame.from_records([row_od])
+        template = pd.concat([template, new_row], ignore_index=True, sort=False)
 
     # Write to csv
     template.to_csv(template_file_name, sep="\t", header=True, index=False)
