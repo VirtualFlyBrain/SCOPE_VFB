@@ -1,5 +1,8 @@
 # SCOPE_VFB
-A repo for scripting integration between SCOPE and VFB.  Status: experimental
+
+A repo for scripting integration between [SCOPE](http://scope.aertslab.org/) and VFB.  Status: In USE FOR VFB LINKOUT GENERATION
+
+Code here was the result of a brief hackathon to being the process of linking VFB and SCope  Work is needed to make it more stable.  It is likely to be superceded in the near future.
 
 Current workflow (to be superceded at some point by representation of clusters in VFB KB)
 
