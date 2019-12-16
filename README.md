@@ -1,4 +1,4 @@
-# SCOPE_VFB
+# SCOPE_VFB [![Build Status](https://travis-ci.org/VirtualFlyBrain/SCOPE_VFB.svg?branch=master)](https://travis-ci.org/VirtualFlyBrain/SCOPE_VFB)
 
 A repo for scripting integration between [SCOPE](http://scope.aertslab.org/) and VFB.  Status: In USE FOR VFB LINKOUT GENERATION
 
